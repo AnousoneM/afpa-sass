@@ -58,8 +58,8 @@ body .container .card {
   width: 20%;
   margin: 0 1rem;
   padding: 1rem;
-  border: 1px solid black;
-  text-align: justify;
+  background: rgb(174, 167, 167);
+  background: linear-gradient(0deg, rgb(174, 167, 167) 0%, rgb(239, 231, 231) 100%);
   box-shadow: 12px 12px 10px 0px rgba(0, 0, 0, 0.7);
 }
 body .container .card h3 {
@@ -71,11 +71,30 @@ body .container .card h3 {
   color: white;
   padding: 0.5rem 0.6rem;
   margin: 0 auto;
+  border: 1px solid white;
   border-radius: 10px;
   background-color: black;
 }
 body .container .card .box {
   float: left;
+}
+body .container .card .box img {
+  border: white 1px solid;
+}
+body .container .card .box .text-box {
+  background-color: rgba(139, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+}
+body .container .card .box .text-box1 {
+  position: absolute;
+  top: 39rem;
+  width: 12.5rem;
+}
+body .container .card p {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(88, 88, 88);
 }
 
 .clear {
