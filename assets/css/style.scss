@@ -1,0 +1,67 @@
+@import 'fonts';
+
+$logo-width : 8%;
+
+body {
+
+    background-image: url('../img/fond.webp');
+    font-family: 'AlfaSlabOne';
+
+    >span:first-of-type {
+        color: white;
+        background-color: black;
+        padding: 0 1rem;
+        float: right;
+    }
+
+    .clear+hr {
+        margin: 0;
+    }
+
+    #logo {
+        float: left;
+        width: $logo-width;
+
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.6;
+        }
+    }
+
+    #title-flex {
+        display: inline-block;
+        padding-left: 1rem;
+        text-align: left;
+        width: 99% - $logo-width;
+
+        h1 {
+            font-size: 3rem;
+            margin: 0.2rem auto;
+
+            span {
+                opacity: 0.6;
+            }
+        }
+
+        h2 {
+            color: white;
+            padding: 0.6rem 0.6rem;
+            border-radius: 10px;
+            background-color: black;
+        }
+
+        h4 {
+            text-transform: uppercase;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            opacity: 0.6;
+        }
+    }
+}
+
+
+
+.clear {
+    clear: both;
+}

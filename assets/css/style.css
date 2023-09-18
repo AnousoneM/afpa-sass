@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "AlfaSlabOne";
+  src: url("../fonts/AlfaSlabOne-Regular.ttf");
+}
+body {
+  background-image: url("../img/fond.webp");
+  font-family: "AlfaSlabOne";
+}
+body > span:first-of-type {
+  color: white;
+  background-color: black;
+  padding: 0 1rem;
+  float: right;
+}
+body .clear + hr {
+  margin: 0;
+}
+body #logo {
+  float: left;
+  width: 8%;
+}
+body #logo img {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+body #title-flex {
+  display: inline-block;
+  padding-left: 1rem;
+  text-align: left;
+  width: 91%;
+}
+body #title-flex h1 {
+  font-size: 3rem;
+  margin: 0.2rem auto;
+}
+body #title-flex h1 span {
+  opacity: 0.6;
+}
+body #title-flex h2 {
+  color: white;
+  padding: 0.6rem 0.6rem;
+  border-radius: 10px;
+  background-color: black;
+}
+body #title-flex h4 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.clear {
+  clear: both;
+}/*# sourceMappingURL=style.css.map */
